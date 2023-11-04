@@ -1,0 +1,1 @@
+type MyThisParameterType<T> = T extends (this: infer U) => any ? U : unknown;
